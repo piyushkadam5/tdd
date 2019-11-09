@@ -20,4 +20,9 @@ public class VowelCounterTest {
     public void shouldCountVowelsWithStringContainingMultipleVowels(){
         assertEquals(10, new VowelCounter().count("aaeeiioouu"));
     }
+
+    @Test
+    public void shouldCountVowelsWithStringContainingUpperAndLowerCaseLetters(){
+        assertEquals(7, new VowelCounter().count("Hello My NAME is Piyush"));
+    }
 }

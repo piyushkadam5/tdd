@@ -7,7 +7,7 @@ public class VowelCounter {
             return count;
         }
         else{
-            char []vowels = {'a','e','i','o','u'};
+            char []vowels = {'a','e','i','o','u','A','E','I','O','U'};
             for(int index=0;index < input.length();index++){
                 char input_char = input.charAt(index);
                 for(char vowel:vowels){
